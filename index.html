@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <style>
       body {
          background-color: lightgray
       }
+      
       .text {
-         text-align: center;
+         # text-align: center;
        }
 
        #main-title, #subtitle {
@@ -15,6 +15,15 @@
          color: maroon
        }
     </style>
+    
+    <script language='JavaScript'>
+       var username = "[your_username]';
+       var hostname = "[your_mail_account_domain]";
+       var linktext = username + "@" + hostname ;
+
+       var emLink = document.getElementById('syndesmos-epikoinwnias');
+       emLink.setAttribute('href', 'mailto:istoriavamvakous@gmail.com')
+    </script>
   </head>
 
   <body>
@@ -27,7 +36,8 @@
     <h3 id='subtitle'>ΤΟ ΜΙΚΡΟ ΧΩΡΙΟ ΚΑΙ Η ΜΕΓΑΛΗ ΙΣΤΟΡΙΑ ΤΟΥ</h3>
 
     <div class='text'>
-       Το βιβλίο, σε μορφή pdf, είναι διαθέσιμο <a href="https://drive.google.com/file/d/0B9tD67DofG5paEViSEVZTE1vZVE/view?usp=sharing">εδώ</a>.
+      Το βιβλίο, σε μορφή pdf, είναι διαθέσιμο <a href="https://drive.google.com/file/d/0B9tD67DofG5paEViSEVZTE1vZVE/view?usp=sharing">εδώ</a>.
+      Μπορείτε να επικοινωνήσετε με το συγγραφέα <a id='syndemos-epikoinwnias'>ηλεκτρονικά.</a>
     </div>
   </body>
 
