@@ -17,16 +17,14 @@
     </style>
     
     <script language='JavaScript'>
-       var username = "[your_username]';
-       var hostname = "[your_mail_account_domain]";
-       var linktext = username + "@" + hostname ;
-
-       var emLink = document.getElementById('syndesmos-epikoinwnias');
-       emLink.setAttribute('href', 'mailto:istoriavamvakous@gmail.com')
+       function setSyndesmosEpik() {
+          var emLink = document.getElementById('syndesmos-epikoinwnias');
+          emLink.setAttribute('href', 'mailto:istoriavamvakous@gmail.com');
+       }
     </script>
   </head>
 
-  <body>
+  <body onload='setSyndemosEpik()'>
     <div class='text'>
         Στη σελίδα αυτή θα βρείτε το βιβλίο του Νίκου Χ. Σταυρόπουλου
     </div>
@@ -37,7 +35,7 @@
 
     <div class='text'>
       Το βιβλίο, σε μορφή pdf, είναι διαθέσιμο <a href="https://drive.google.com/file/d/0B9tD67DofG5paEViSEVZTE1vZVE/view?usp=sharing">εδώ</a>.
-      Μπορείτε να επικοινωνήσετε με το συγγραφέα <a id='syndemos-epikoinwnias'>ηλεκτρονικά.</a>
+      Μπορείτε να επικοινωνήσετε με το συγγραφέα <a id='syndesmos-epikoinwnias'>ηλεκτρονικά.</a>
     </div>
   </body>
 
